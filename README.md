@@ -4,18 +4,10 @@ Breve descripción de tu proyecto CodeIgniter: qué hace, para quién es y por q
 
 ## 📋 Requisitos
 
-- PHP >= 8.1
+- PHP >= 8.2
 - Composer
 - MySQL / MariaDB (o el motor de BD que uses)
 - Extensiones PHP: `intl`, `mbstring`, `json`, `curl`, `mysqlnd`
-
-## 🚀 Instalación
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
-   cd tu-repo
-   ```
 
 2. Instala las dependencias:
    ```bash
@@ -57,18 +49,7 @@ Breve descripción de tu proyecto CodeIgniter: qué hace, para quién es y por q
 
 La aplicación quedará disponible en `http://localhost:8080`.
 
-## 📁 Estructura del proyecto
-
-```
-├── app/            # Controladores, modelos, vistas y configuración
-├── public/         # Punto de entrada (index.php) y assets públicos
-├── writable/       # Logs, caché y sesiones (requiere escritura)
-├── system/         # Núcleo del framework (no modificar)
-├── tests/          # Pruebas automatizadas
-└── env             # Plantilla de variables de entorno
-```
-
-## 🛠️ Comandos útiles
+##  Comandos útiles
 
 | Comando | Descripción |
 |---|---|
@@ -78,13 +59,13 @@ La aplicación quedará disponible en `http://localhost:8080`.
 | `php spark migrate` | Ejecuta las migraciones pendientes |
 | `php spark db:seed NombreSeeder` | Ejecuta un seeder |
 
-## 🧪 Tests
+## Tests
 
 ```bash
 composer test
 ```
 
-## 🤝 Contribuir
+## Contribuir
 
 1. Haz un fork del proyecto
 2. Crea una rama para tu funcionalidad (`git checkout -b feature/nueva-funcionalidad`)
@@ -95,9 +76,3 @@ composer test
 ## 📄 Licencia
 
 Este proyecto está bajo la licencia [MIT](LICENSE).
-
-## 📧 Contacto
-
-Tu nombre - tu-email@ejemplo.com
-
-Link del proyecto: [https://github.com/tu-usuario/tu-repo](https://github.com/tu-usuario/tu-repo)
