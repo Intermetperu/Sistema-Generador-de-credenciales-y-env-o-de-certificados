@@ -2,7 +2,7 @@
 
 Breve descripción de tu proyecto CodeIgniter: qué hace, para quién es y por qué existe.
 
-## 📋 Requisitos
+##  Requisitos
 
 - PHP >= 8.2
 - Composer
