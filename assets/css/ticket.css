@@ -1,0 +1,36 @@
+* {
+    font-size: 12px;
+    font-family: 'DejaVu Sans', serif;
+}
+
+body {
+    text-align: center;    
+}
+
+h1 {
+    font-size: 18px;
+}
+
+.ticket {
+    margin: 0;
+}
+
+.centrado {
+    text-align: center;
+    align-content: center;
+}
+
+/* .ticket {
+    width: 180px;
+    max-width: 180px;
+} */
+
+img {
+    max-width: inherit;
+    width: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,24 @@
+# Logs
+error_log
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Variables y configuraciones privadas
+.env
+.env.*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de respaldo
+*.bak
+*.backup
+
+# Archivos sensibles dentro de uploads
+# Descomenta estas líneas si NO quieres subir los archivos generados
+# uploads/*
+# !uploads/.gitkeep
